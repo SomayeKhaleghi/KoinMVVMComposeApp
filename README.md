@@ -39,7 +39,7 @@ Open in Android Studio Flamingo or newer.
 
 Build and run the project.
 
-✅ Kotlin Code Overview (Jetpack Compose version)
+## ✅ Kotlin Code Overview (Jetpack Compose version)
 
 ```kotlin
 val appModule = module {
