@@ -35,7 +35,7 @@ app/
    ```bash
    git clone https://github.com/your-username/KoinMVVMComposeApp.git
 
-Open in Android Studio Flamingo or newer.
+Open in Android Studio Flamingo or newer(Make sure you have: Kotlin 1.8+, Gradle 7+, Android SDK 33+)
 
 Build and run the project.
 
