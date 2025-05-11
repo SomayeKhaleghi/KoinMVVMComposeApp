@@ -38,22 +38,15 @@ Open in Android Studio Flamingo or newer.
 
 Build and run the project.
 
-🧩 Koin Setup
-```kotlin
+✅ Kotlin Code Overview (Jetpack Compose version)
 
+```kotlin
 val appModule = module {
     single { GreetingRepository() }
     viewModel { MainViewModel(get()) }
 }
 
-
----
-
-## ✅ Kotlin Code Overview (Jetpack Compose version)
-
-### 1️⃣ `GreetingRepository.kt`
-
-```kotlin
+-----------------------------
 
 class GreetingRepository {
     fun getGreeting(): String = "Hello from Jetpack Compose + Koin!"
