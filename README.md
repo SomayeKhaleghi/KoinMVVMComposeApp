@@ -19,6 +19,7 @@ A simple Android app that demonstrates clean **MVVM architecture** using **Jetpa
 ## 🧱 Architecture
 
 app/
+
 ├── di/ # Koin modules
 
 ├── model/ # Data source (Repository)
