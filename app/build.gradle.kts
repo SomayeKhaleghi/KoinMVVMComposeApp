@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.sample.koinmvvmcomposeapp"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.sample.koinmvvmcomposeapp"
@@ -56,4 +56,9 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    implementation (libs.koin.android)
+    implementation (libs.koin.androidx.compose)
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.9.0")
+
+
 }
