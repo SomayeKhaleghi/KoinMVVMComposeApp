@@ -20,8 +20,11 @@ A simple Android app that demonstrates clean **MVVM architecture** using **Jetpa
 
 app/
 ├── di/ # Koin modules
+
 ├── model/ # Data source (Repository)
+
 ├── viewmodel/ # ViewModel layer
+
 ├── ui/ # Compose UI
 
 
@@ -36,6 +39,8 @@ Open in Android Studio Flamingo or newer.
 Build and run the project.
 
 🧩 Koin Setup
+```kotlin
+
 val appModule = module {
     single { GreetingRepository() }
     viewModel { MainViewModel(get()) }
@@ -49,7 +54,6 @@ val appModule = module {
 ### 1️⃣ `GreetingRepository.kt`
 
 ```kotlin
-package com.example.app.model
 
 class GreetingRepository {
     fun getGreeting(): String = "Hello from Jetpack Compose + Koin!"
